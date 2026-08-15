@@ -8,11 +8,11 @@ ingestion:
 relevance:
   interest_profile: ["GPU inference", "AI hardware/accelerators", "LLM serving", "quantization", "generative AI systems", "large language models"]
   relevance_threshold: 6
-  model_name: "llama-3.3-70b-versatile"
+  model_name: "openai/gpt-oss-120b"
   temperature: 0.1
 
 summarization:
-  model_name: "llama-3.3-70b-versatile"
+  model_name: "openai/gpt-oss-120b"
   temperature: 0.4
   max_summary_tokens: 600
   tier: "abstract"
